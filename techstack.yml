@@ -1,0 +1,29 @@
+repo_name: mallowigi/MaterialDesign
+report_id: 59df4416e25d17f625e38f6f6d968c2b
+repo_type: Public
+timestamp: '2023-11-19T07:55:01+00:00'
+requested_by: Templarian
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/cd-font-build.yml"
+  last_updated_by: Austin Andrews
+  last_updated_on: 2020-02-22 20:23:32.000000000 Z
