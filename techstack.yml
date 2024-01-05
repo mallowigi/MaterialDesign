@@ -1,7 +1,8 @@
 repo_name: mallowigi/MaterialDesign
 report_id: 59df4416e25d17f625e38f6f6d968c2b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-19T07:55:01+00:00'
+timestamp: '2024-01-05T08:36:53+00:00'
 requested_by: Templarian
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mallowigi/MaterialDesign
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -24,6 +26,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/mallowigi/MaterialDesign/blob/master/.github/workflows/cd-font-build.yml
   detection_source: ".github/workflows/cd-font-build.yml"
   last_updated_by: Austin Andrews
   last_updated_on: 2020-02-22 20:23:32.000000000 Z
